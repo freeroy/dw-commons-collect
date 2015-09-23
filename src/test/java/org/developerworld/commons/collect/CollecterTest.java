@@ -24,7 +24,7 @@ public class CollecterTest {
 	 * 先通过列表页获取地址集合
 	 * 再二次访问地址集合，获取详细页内容
 	 */
-	@Test
+	//@Test
 	public void testCollect() {
 		// 构建采集器对象
 		Collecter collecter = new SimpleCollecter();
