@@ -83,7 +83,7 @@ public class UrlContentProvider implements ContentProvider {
 					StringBuilder sb = new StringBuilder();
 					String lineStr = null;
 					while ((lineStr = reader.readLine()) != null)
-						sb.append(lineStr);
+						sb.append(lineStr).append("\r\n");
 					rst = sb.toString();
 				} finally {
 					if (reader != null)
